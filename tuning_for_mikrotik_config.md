@@ -1,5 +1,7 @@
 # время жизни соеденения, по дефолту 24ч
-* /ip firewall connection tracking set tcp-established-timeout=1h *
+  ```bash
+  /ip firewall connection tracking set tcp-established-timeout=1h *
+  ```
 
 /ip dhcp-server set [find name="defconf"] lease-time=1d
 срок аренды dhcp
