@@ -112,29 +112,6 @@ client-to-client-forwarding=yes — клиенты внутри одной то�
        add channel=2.4Channels country=uzbekistan3 datapath=OfficeNet distance=indoors guard-interval=long max-sta-count=32 mode=ap multicast-helper=default name=OfficeNet2 rates=StandartDataRates rx-chains=0,1 securit=OfficeNetPass ssid="$DDISOffice-2.4Ghz" tx-chains=0.1
        add channel=5Channels country=uzbekistan3 datapath=OfficeNet distance=indoors guard-interval=long max-sta-count=32 mode=ap multicast-helper=default name=OfficeNet5 rates=StandartDataRates rx-chains=0.1 security=OfficeNetPass ssid="$SSIDOffice-5Ghz" tx-chains00.1
 ```
-Созданы два профиля Wi-Fi:
-
-OfficeNet2 (2.4 GHz)
-
-Каналы: 2.4Channels
-
-Страна: Uzbekistan3
-
-SSID: $DDISOffice-2.4Ghz
-
-До 32 клиентов, режим AP, трафик через OfficeNet
-
-OfficeNet5 (5 GHz)
-
-Каналы: 5Channels
-
-Страна: Uzbekistan3
-
-SSID: $SSIDOffice-5Ghz
-
-До 32 клиентов, режим AP, трафик через OfficeNet
-
-Оба профиля используют WPA2 (OfficeNetPass) и стандартные скорости передачи.
 
 
 ### 10.Настройка автоконфигурацию в сети:
